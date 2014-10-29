@@ -11,7 +11,7 @@ public abstract class CD extends Product {
         this.length = length;
     }
 
-    // konstruktor 3 arg, który domyślnie okreœla length = 60
+    // konstruktor 3 arg, który domyślnie określa length = 60
     public CD(String name, String desc, double price) {
         this(name, desc, price, 60);
     }
