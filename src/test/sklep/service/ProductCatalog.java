@@ -14,11 +14,11 @@ public class ProductCatalog {
 	private List<Product> products = new ArrayList<Product>();
 
 	public ProductCatalog() {
-		products.add(new Book("Ania z Zielonego WzgÛrza",
-				" Literatura dla dzieci i m≥odzieøy", 19.99,
+		products.add(new Book("Ania z Zielonego Wzg√≥rza",
+				" Literatura dla dzieci i m≈Çodzie≈ºy", 19.99,
 				"978-83-7517-471-7"));
 		products.add(new Book("W pustyni i w puszczy",
-				" Literatura dla dzieci i m≥odzieøy", 11.99,
+				" Literatura dla dzieci i m≈Çodzie≈ºy", 11.99,
 				"978-83-7327-241-5"));
 
 		products.add(new MusicCD(
@@ -29,7 +29,7 @@ public class ProductCatalog {
 
 		products.add(new MovieCD("Rambo III", "Film akcji", 39.90, 120,
 				Sound.DUBBING));
-		products.add(new MovieCD("Pan Wo≥odyjowski", "Film historyczny", 45.80,
+		products.add(new MovieCD("Pan Wo≈Çodyjowski", "Film historyczny", 45.80,
 				153, Sound.ORYGINAL));
 	}
 

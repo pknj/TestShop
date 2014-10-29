@@ -14,6 +14,6 @@ public class MovieCD extends CD {
 	}
 
 	public String getType() {
-		return "P³yta z filmem:\t";
+		return "PÅ‚yta z filmem:\t";
 	}
 }

@@ -31,8 +31,8 @@ public class Koszyk {
 	public void buy(Product prod, int count) {
 		products.add(new ProdCount(prod, count));
 
-		System.out.println("kupiono produkt: " + prod + " w iloœci sztuk "
-				+ count + ". £¹czna cena: " + prod.getPrice() * count);
+		System.out.println("kupiono produkt: " + prod + " w iloÅ›ci sztuk "
+				+ count + ". Å‚Ä…czna cena: " + prod.getPrice() * count);
 
 	}
 

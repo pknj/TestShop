@@ -8,7 +8,7 @@ public class MusicCD extends CD {
 
 	@Override
 	public String getType() {
-		return "P³yta z muzyk¹:\t";
+		return "PÅ‚yta z muzykÄ…:\t";
 	}
 
 }

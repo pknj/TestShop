@@ -10,21 +10,21 @@ public class Test {
 		
 		Scanner scan = new Scanner(System.in);
 		
-			System.out.println("Podaj numer [indexu] produktu, który chcesz kupiæ: ");
+			System.out.println("Podaj numer [indexu] produktu, ktÃ³ry chcesz kupiÄ‡: ");
 			int index = scan.nextInt();
 			
-			System.out.println("Podaj iloœæ sztuk produktu [" + index + "]");
+			System.out.println("Podaj iloÅ›Ä‡ sztuk produktu [" + index + "]");
 			int count = scan.nextInt();
 			
 		scan.close();
 		
 		Koszyk koszyk = new Koszyk();
-		System.out.println("\nTwój koszyk:");
+		System.out.println("\nTwÃ³j koszyk:");
 		
-		//kupujemy produkt z listy i podajemy iloœæ kupionych rzeczy
+		//kupujemy produkt z listy i podajemy iloÅ›Ä‡ kupionych rzeczy
 		koszyk.buy(pCat.getProduct(index), count);
 
 		
-		System.out.println("Wartoœæ zamówienia to: " + koszyk.getTotalPrice());
+		System.out.println("WartoÅ›Ä‡ zamÃ³wienia to: " + koszyk.getTotalPrice());
 	}
 }

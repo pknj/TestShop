@@ -11,7 +11,7 @@ public class Book extends Product {
 	}
 
 	public String getType() {
-		return "Ksi¹¿ka:\t\t";
+		return "KsiÄ…Å¼ka:\t\t";
 	}
 	
 	public String getISBN() {
