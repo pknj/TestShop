@@ -9,4 +9,6 @@ enum types, collections, polymorphism, overriding, overloading and others.
 
 The program has been written in accordance with the principles of object programming. 
 
+It is ready to build with Maven.
+
 This project will be further developed and improved by me.
